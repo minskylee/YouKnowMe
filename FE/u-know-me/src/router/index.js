@@ -9,6 +9,7 @@ import ChatView from '@/views/chat/ChatView.vue'
 import MainView from '@/views/main/MainView.vue'
 import AdminView from '@/views/admin/AdminView.vue'
 import TelCerticate from '@/views/land/TelCerticate.vue'
+import Test2View from '@/views/land/Test2View.vue'
 
 import NotFound404 from '@/views/NotFound404.vue'
 
@@ -48,6 +49,11 @@ const routes = [
     path: "/tc",
     name: 'tc',
     component: TelCerticate,
+  },
+  {
+    path: "/test2",
+    name: 'test2',
+    component: Test2View,
   },
   {
     path: '/404',

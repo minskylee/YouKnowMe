@@ -44,7 +44,6 @@ export default {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
